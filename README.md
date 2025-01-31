@@ -1,13 +1,13 @@
 # Micro Frontend Demo
 
-This project demonstrates a micro frontend architecture using Module Federation in Webpack 5. It consists of a host application that loads chat and email applications dynamically.
+This project demonstrates a micro frontend architecture using Module Federation in Webpack 5. It consists of a host application that loads chat and email applications dynamically. This will run locally, not deployed on any domain.
 
 ## Setup and Installation
-Install dependencies for all applications:
+**Install dependencies for all applications:**
 
-cd host-app && npm install
-cd ../chat-app && npm install
-cd ../email-app && npm install
+- **cd host-app && npm install**
+- **cd ../chat-app && npm install**
+- **cd ../email-app && npm install**
 
 ### Applications
 - **Host App** (Port 3000): Main shell application that manages routing and shared components
