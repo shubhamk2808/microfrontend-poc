@@ -5,9 +5,9 @@ This project demonstrates a micro frontend architecture using Module Federation 
 ## Setup and Installation
 **Install dependencies for all applications:**
 
-- **cd host-app && npm install**
-- **cd ../chat-app && npm install**
-- **cd ../email-app && npm install**
+- **cd host-app && npm install && npm start**
+- **cd ../chat-app && npm install && npm start**
+- **cd ../email-app && npm install && npm start**
 
 ### Applications
 - **Host App** (Port 3000): Main shell application that manages routing and shared components
